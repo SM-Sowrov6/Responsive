@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form</title>
+    <style>
+        nav a{
+            text-decoration: none;
+            color: black;
+        }
+        nav{
+            display:flex ;
+            justify-content:space-between;
+        }
+        .loginform-container{
+            display: flex;
+            justify-content: center;
+            /* border: 1px solid tan; */
+            height: 90vh;
+        }
+        .loginform{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            /* border: 2px solid red; */
+            width: 50%;
+            
+        }
+        .loginform input{
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+       <div>
+        <a href="">home</a>
+        <a href="">profile</a>
+        <a href="">blog</a>
+        <a href="">about</a>
+       </div>
+
+        <a href="">login</a>
+    </nav>
+
+   <section class="loginform-container">
+    <form class="loginform">
+        <h3>login</h3>
+        <input type="email" placeholder="Your email" required>
+
+        <input type="password" placeholder="enter your password " required>
+        <input type="submit" value="login">
+    </form>
+   </section>
+</body>
+</html>

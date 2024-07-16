@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task5</title>
+    <style>
+        .container{
+            display: grid;
+            height: 564px;
+        }
+        .one , .two{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            background-color: rgb(211, 240, 240);
+            border: 1px solid black;
+            margin-bottom: 5px;
+        }
+        img{
+            width: 100%;
+        }
+
+            
+            .inside{
+                display: grid;
+                margin: 30px;
+                   
+            }
+            @media screen and (max-width:576px){
+            .one {
+          display: flex;
+          flex-direction: column;
+        }
+        .two{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        }
+
+            
+            
+    </style>
+</head>
+<body>
+    <section class="container">
+        <div class="one">
+            <img src="pic/rose.jpg" alt="">
+
+            <div class="inside">
+                <h1>Lorem ipsum </h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit, porro eligendi? Distinctio placeat harum aperiam vero sed pariatur rerum eius laborum repellat a, veritatis minima doloremque exercitationem quas obcaecati minus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga ipsa ducimus dolorum odit ab error repudiandae, perferendis nobis aliquid ad. Mollitia ipsam porro expedita quis odit aut quaerat. Architecto, doloremque.</p>
+            </div>
+
+        </div>
+
+        <div class="two">
+            
+
+            <div class="inside">
+                <h1>Lorem ipsum </h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit, porro eligendi? Distinctio placeat harum aperiam vero sed pariatur rerum eius laborum repellat a, veritatis minima doloremque exercitationem quas obcaecati minus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga ipsa ducimus dolorum odit ab error repudiandae, perferendis nobis aliquid ad. Mollitia ipsam porro expedita quis odit aut quaerat. Architecto, doloremque.</p>
+            </div>
+            <img src="pic/rose.jpg" alt="">
+
+        </div>
+
+
+
+
+    </section>
+</body>
+</html>
